@@ -2,7 +2,7 @@
 A basic docker monitoring demo application using Axibase and Google cAdvisor.
 
 ### Vagrant boxes
-The Demo application will have 3 hosts, refer to [Vagrantfile](../Vagrantfile) for more details,
+The Demo application will have 3 hosts, refer to [Vagrantfile](/Vagrantfile) for more details,
  * rhel7-cdkv2 - [RHEL 7 Container Development Kit] (http://developers.redhat.com/containers/adoption/) - the machine which will host Axibase, Grafana etc., and its a host where all docker image building, registry setup etc., its optional to have RHEL7 CDK, you can use any Linux host you want which can support docker 
  * node[1,2] - the docker container hosts, which is based on [Centos Atomic Host](https://wiki.centos.org/SpecialInterestGroup/Atomic), which will host cAdvisor and some demo docker containers
  
@@ -88,7 +88,7 @@ sudo docker create -p 3000:3000 \
   --name grafana grafana/grafana
 ```
 # License
-[LICENSE][../LICENSE.md]
+[LICENSE](/LICENSE.md)
 
 # References
 
